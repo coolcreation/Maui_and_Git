@@ -1,0 +1,38 @@
+﻿# Ignore Visual Studio files
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.idb
+*.pdb
+
+# Build output directories
+bin/
+obj/
+
+# macOS-specific files
+.DS_Store
+
+# Android-specific files
+.gradle/
+build/
+*.apk
+*.ap_
+*.dex
+*.keystore
+*.jks
+
+# iOS-specific files
+*.xcuserstate
+*.xcworkspace
+DerivedData/
+build/
+
+# Windows-specific files
+*.cache
+Thumbs.db
+
+# JetBrains Rider/IDEA files
+.idea/
+*.iml
