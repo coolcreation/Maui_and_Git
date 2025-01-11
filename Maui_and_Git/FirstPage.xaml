@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui_and_Git.FirstPage"
+             Title="FirstPage">
+
+    <VerticalStackLayout>
+        <Frame Padding="0" HorizontalOptions="Center" CornerRadius="100">
+            <Image Source="frog"
+               HeightRequest="400"
+               WidthRequest="400" />
+        </Frame>
+
+    </VerticalStackLayout>
+<!--
+    <HorizontalStackLayout>
+        <Label Text="First Label"/>
+        <Label Text="Second Label"/>
+    </HorizontalStackLayout>
+    -->
+</ContentPage>
