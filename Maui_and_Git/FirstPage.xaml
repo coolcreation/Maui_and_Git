@@ -2,17 +2,42 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Maui_and_Git.FirstPage"
-             Title="FirstPage">
+             Title="FirstPage"
+             BackgroundColor="tan">
 
-    <VerticalStackLayout>
-        <Frame Padding="0" HorizontalOptions="Center" CornerRadius="100">
-            <Image Source="frog"
-               HeightRequest="400"
-               WidthRequest="400" />
-        </Frame>
+    <Frame CornerRadius="10"
+        VerticalOptions="Center"
+        IsClippedToBounds="True"
+        Margin="8"
+        Padding="0">
+        <VerticalStackLayout Padding="15" 
+                         BackgroundColor="Black">
 
-    </VerticalStackLayout>
-<!--
+            <Frame Padding="0" HorizontalOptions="Center" CornerRadius="100">
+                <Image Source="frog"
+               HeightRequest="200"
+               WidthRequest="200" 
+               Aspect="Fill"/>
+            </Frame>
+
+            <Label Text="It's a Frog!"
+               HorizontalOptions="Center"
+               TextColor="LIME"
+               FontSize="21"
+               Padding="10"
+               />
+            <Label Text="Poisonous jungle creature"
+               HorizontalOptions="Center"     
+               TextColor="White"
+               FontSize="17"
+               Padding="10"
+               />
+
+            <Border />
+        </VerticalStackLayout>
+
+    </Frame>
+    <!--
     <HorizontalStackLayout>
         <Label Text="First Label"/>
         <Label Text="Second Label"/>
