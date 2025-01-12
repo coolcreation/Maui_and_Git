@@ -24,13 +24,13 @@
                HorizontalOptions="Center"
                TextColor="LIME"
                FontSize="21"
-               Padding="10"
+               StyleClass="titleLabel"
                />
             <Label Text="Poisonous jungle creature"
                HorizontalOptions="Center"     
                TextColor="White"
                FontSize="17"
-               Padding="10"
+               StyleClass="descriptionLabel"
                />
 
             <Border />
